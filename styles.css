@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #00698f;
+  color: #fff;
+}
+
+#logo {
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#cart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.item {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.like {
+  background-color: transparent;
+  border: none;
+  color: red;
+  font-size: 24px;
+}
+
+.minus,
+.plus {
+  background-color: transparent;
+  border: none;
+  color: #00698f;
+  font-size: 24px;
+}
+
+.quantity {
+  font-size: 24px;
+}
+
+.delete {
+  background-color: transparent;
+  border: none;
+  color: red;
+  font-size: 24px;
+}
+
+#total {
+  font-size: 24px;
+}
+Copy code .item {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
